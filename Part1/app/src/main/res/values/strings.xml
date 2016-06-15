@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">初识Material Design</string>
+    <string name="part_1">Palette</string>
+    <string name="part_2">视图与阴影</string>
+    <string name="part_3">Tinting</string>
+    <string name="part_4">Clipping</string>
+    <string name="part_5">RecyclerView</string>
+</resources>

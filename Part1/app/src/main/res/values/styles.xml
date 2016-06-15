@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ffc933</item>
+        <item name="colorPrimaryDark">#ffc933</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <!--<style name="MyStyle" >-->
+    <!--<item name="android:colorPrimary">#ffc933</item>-->
+    <!--<item name="android:colorPrimaryDark">#ffc933</item>-->
+    <!--<item name="android:colorAccent">@color/colorAccent</item>-->
+    <!--<item name="android:windowBackground">@android:color/white</item>-->
+    <!--<item name="android:navigationBarColor">@color/colorPrimary</item>-->
+    <!--</style>-->
+    <!-- toolbar菜单样式 -->
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="actionMenuTextColor">@android:color/black</item>
+        <item name="actionMenuTextAppearance">@style/ToolbarMenuTextSize</item>
+        <item name="colorControlNormal">@android:color/black</item>
+    </style>
+    <!-- toolbar弹出菜单样式 -->
+    <style name="ToolbarPopupTheme" parent="@style/ThemeOverlay.AppCompat">
+        <item name="android:colorBackground">#212121</item>
+        <item name="android:textColor">@color/md_white_1000</item>
+    </style>
+    <!-- toolbar菜单文字尺寸 -->
+    <style name="ToolbarMenuTextSize" parent="@style/TextAppearance.AppCompat.Menu">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!-- toolbar标题样式 -->
+    <style name="ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>
