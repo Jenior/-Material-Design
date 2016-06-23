@@ -22,6 +22,12 @@
         </activity>
         <activity android:name=".activity.LearnRecyclerViewActivity">
         </activity>
+        <activity android:name=".activity.LearnCardView">
+        </activity>
+        <activity android:name=".activity.LearnTransitionActivity">
+        </activity>
+        <activity android:name=".activity.LearnTransitionActivityB">
+        </activity>
     </application>
 
 </manifest>

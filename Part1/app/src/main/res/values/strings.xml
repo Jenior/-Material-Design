@@ -5,4 +5,6 @@
     <string name="part_3">Tinting</string>
     <string name="part_4">Clipping</string>
     <string name="part_5">RecyclerView</string>
+    <string name="part_6">CardView</string>
+    <string name="part_7">Activity 过渡动画</string>
 </resources>

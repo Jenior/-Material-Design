@@ -5,11 +5,13 @@ import android.content.Intent;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.example.administrator.part1.activity.LearnCardView;
 import com.example.administrator.part1.activity.LearnClippingActivity;
 import com.example.administrator.part1.activity.LearnElevationActivity;
 import com.example.administrator.part1.activity.LearnPaletteActivity;
 import com.example.administrator.part1.activity.LearnRecyclerViewActivity;
 import com.example.administrator.part1.activity.LearnTintingActivity;
+import com.example.administrator.part1.activity.LearnTransitionActivity;
 import com.example.administrator.part1.adapter.MainAdapter;
 import com.example.administrator.part1.base.BaseActivity;
 
@@ -19,7 +21,8 @@ import java.util.List;
 public class MainActivity extends BaseActivity {
     private RecyclerView recyclerView;
     private List<String> mList;
-    private MainAdapter mAdapter;
+    private MainAdapter  mAdapter;
+
     @Override
     protected boolean setToolbarShow() {
         return true;
@@ -61,6 +64,12 @@ public class MainActivity extends BaseActivity {
                     case 4:
                         startActivity(new Intent(mContext, LearnRecyclerViewActivity.class));
                         break;
+                    case 5:
+                        startActivity(new Intent(mContext, LearnCardView.class));
+                        break;
+                    case 6:
+                        startActivity(new Intent(mContext, LearnTransitionActivity.class));
+                        break;
                 }
             }
         });
@@ -74,5 +83,7 @@ public class MainActivity extends BaseActivity {
         mList.add(getResources().getString(R.string.part_3));
         mList.add(getResources().getString(R.string.part_4));
         mList.add(getResources().getString(R.string.part_5));
+        mList.add(getResources().getString(R.string.part_6));
+        mList.add(getResources().getString(R.string.part_7));
     }
 }
