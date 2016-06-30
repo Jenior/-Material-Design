@@ -10,6 +10,7 @@ import com.example.administrator.part1.R;
 import com.example.administrator.part1.base.BaseActivity;
 
 public class LearnTransitionActivityB extends BaseActivity {
+    String type;
 
     @Override
     protected boolean setToolbarShow() {
@@ -24,7 +25,7 @@ public class LearnTransitionActivityB extends BaseActivity {
     }
 
     public void setAnimation() {
-        String type = getIntent().getStringExtra("type");
+        type = getIntent().getStringExtra("type");
 
         switch (type) {
             case "1":
@@ -49,6 +50,16 @@ public class LearnTransitionActivityB extends BaseActivity {
 
     @Override
     protected void setView() {
-
+        switch (type) {
+            case "1":
+                mToolbar.setTitle("分 解 动 画");
+                break;
+            case "2":
+                mToolbar.setTitle("滑 动 动 画");
+                break;
+            case "3":
+                mToolbar.setTitle("淡 出 动 画");
+                break;
+        }
     }
 }

@@ -28,6 +28,10 @@
         </activity>
         <activity android:name=".activity.LearnTransitionActivityB">
         </activity>
+        <activity android:name=".activity.SharedElementsActivity">
+        </activity>
+        <activity android:name=".activity.SharedElementsActivityB">
+        </activity>
     </application>
 
 </manifest>

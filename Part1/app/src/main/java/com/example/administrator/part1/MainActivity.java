@@ -12,6 +12,7 @@ import com.example.administrator.part1.activity.LearnPaletteActivity;
 import com.example.administrator.part1.activity.LearnRecyclerViewActivity;
 import com.example.administrator.part1.activity.LearnTintingActivity;
 import com.example.administrator.part1.activity.LearnTransitionActivity;
+import com.example.administrator.part1.activity.SharedElementsActivity;
 import com.example.administrator.part1.adapter.MainAdapter;
 import com.example.administrator.part1.base.BaseActivity;
 
@@ -70,6 +71,9 @@ public class MainActivity extends BaseActivity {
                     case 6:
                         startActivity(new Intent(mContext, LearnTransitionActivity.class));
                         break;
+                    case 7:
+                        startActivity(new Intent(mContext, SharedElementsActivity.class));
+                        break;
                 }
             }
         });
@@ -85,5 +89,6 @@ public class MainActivity extends BaseActivity {
         mList.add(getResources().getString(R.string.part_5));
         mList.add(getResources().getString(R.string.part_6));
         mList.add(getResources().getString(R.string.part_7));
+        mList.add(getResources().getString(R.string.part_8));
     }
 }

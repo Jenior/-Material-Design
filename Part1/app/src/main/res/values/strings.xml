@@ -7,4 +7,5 @@
     <string name="part_5">RecyclerView</string>
     <string name="part_6">CardView</string>
     <string name="part_7">Activity 过渡动画</string>
+    <string name="part_8">Activity 共享元素</string>
 </resources>
